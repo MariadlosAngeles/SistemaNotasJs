@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Exo+2:wght@300&family=Lato:wght@300;400&family=M+PLUS+Rounded+1c:wght@300&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Cormorant+Garamond:ital,wght@1,500&family=Exo+2:wght@300&family=Lato:wght@300;400&family=M+PLUS+Rounded+1c:wght@300&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Cormorant+Garamond:ital,wght@0,300;1,500&family=Exo+2:wght@300&family=Lato:wght@300;400&family=M+PLUS+Rounded+1c:wght@300&family=Quicksand&display=swap');
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: #8df2fdb6;
+}
+
+header{
+    position:fixed;
+    background-color: #8df2fdb6;
+    width: 100vw;
+    color: rgba(0, 0, 0, 0.807);
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+footer{
+    position:absolute;
+    background-color: #8df2fdb6;
+    width: 100vw;
+    height: 45px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+}
+hr{
+    width: 100vw;
+    background-color: black;
+    height: 1px;
+   
+}
+#container{
+    display: flex; 
+    flex-direction: column;
+    width: 100vw;
+    height: 163vh;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    flex-direction: column;
+    display: flex;
+    padding: 50px;
+    width: 560px;
+    /* margin-top: 250px; */
+    margin-bottom: 50px;
+    /* border-top: 1px solid black; */
+    /* border-right: 1px solid black; */
+    /* border-left: 1px solid black; */
+    /* border-bottom: 1px solid black; */
+}
+
+.container2{
+    margin-left: 60px;
+}
+
+label{
+    margin-top: 10px;
+    width: 75px;
+    
+    /* background-color: rgb(255, 255, 255); */
+    
+}
+
+input{
+    width: 500px;
+    height: 37px;
+    margin-top: 20px;
+}
+
+#colour{
+    margin-top: 10px;
+    width:108px;
+    height: 31px;
+    border-radius: 20px;
+}
+
+#calcular{
+    width: 100px;
+    margin-top: 10px;
+}
+
+input[type="radio"]{
+	width:25px;
+}

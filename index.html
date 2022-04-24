@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de notas</title>
+</head>
+<body>
+    <header>
+        <h1>SISTEMA DE NOTAS</h1>
+    </header>
+    <div id="container">
+        <hr>
+        <div class="container1" >
+            
+            <label>Nombre</label>
+            <input type="text" id="studentName" placeholder="Ingrese su nombre" >
+            
+            <label>Nota 1</label>
+            <input type="number" id="note1" placeholder="Numeros [1-5]" min="1" max="5">
+            
+            <label>Nota 2</label>
+            <input type="number" id="note2" placeholder="Numeros [1-5]" min="1" max="5">
+            
+            <label>Fondo</label>
+            <select name="select" id="colour" onchange="colors(this)">
+                <option value="#8df2fdb6" selected>Opcion</option>
+                <option value="#FFFFFF" >Blanco</option>
+                <option value="#9BEAF2">Azul</option> 
+                <option value="#F7CCD5">Rosa</option>
+                <option value="#C493F5">Morado</option>
+                <option value="#91FBD2">Verde</option>
+               
+            </select>
+            
+        </div>
+        <hr>
+        <div class="container2">
+            <input type="radio" id="validateNotes">
+            <label>¿Estoy en el cuadro de honor?</label>
+
+            <input type="radio" id="validateNotes1" name="radio" >
+            <label>¿Gané la materia?</label>
+
+            <input type="radio" id="validateNotes2" name="radio">
+            <label>¿Puedo recuperar?</label>
+
+            <input type="radio" id="validateNotes3" name="radio">
+            <label>¿Perdi el año?</label>
+        </div>
+      
+    </div>
+    <footer>
+        <p>© 2022 all rights reserved by Maria de los Angeles Gonzalez Cuellar</p>
+    </footer>
+    <script src="notas.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <link rel="stylesheet" href="sweetalert2.min.css">
+</body>
+</html>
